@@ -340,7 +340,7 @@ bool a,aminus,bplus,b,bminus,cplus,c,cminus,dplus,d,dminus;
                 
         }
         if (aminus == YES) {
-            double newvalue = (([newValue doubleValue]) - 93.00) * 0.01;
+            double newvalue = (([newValue doubleValue]) - 90.00) * 0.01;
             bool done = NO;
             if (newvalue < 0) {
                 double finalValue = 0.0;
@@ -368,7 +368,7 @@ bool a,aminus,bplus,b,bminus,cplus,c,cminus,dplus,d,dminus;
 
         }
         if (bplus == YES) {
-            double newvalue = (([newValue doubleValue]) - 93.00) * 0.01;
+            double newvalue = (([newValue doubleValue]) - 87.00) * 0.01;
             bool done = NO;
             if (newvalue < 0) {
                 double finalValue = 0.0;
@@ -395,7 +395,7 @@ bool a,aminus,bplus,b,bminus,cplus,c,cminus,dplus,d,dminus;
             bplus = NO;
         }
         if (b == YES) {
-            double newvalue = (([newValue doubleValue]) - 93.00) * 0.01;
+            double newvalue = (([newValue doubleValue]) - 85.00) * 0.01;
             bool done = NO;
             if (newvalue < 0) {
                 double finalValue = 0.0;
@@ -422,7 +422,7 @@ bool a,aminus,bplus,b,bminus,cplus,c,cminus,dplus,d,dminus;
             b = NO;
         }
         if (bminus == YES) {
-            double newvalue = (([newValue doubleValue]) - 93.00) * 0.01;
+            double newvalue = (([newValue doubleValue]) - 83.00) * 0.01;
             bool done = NO;
             if (newvalue < 0) {
                 double finalValue = 0.0;

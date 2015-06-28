@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A262C30E1AF6CE3A00F75057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A262C30D1AF6CE3A00F75057 /* main.m */; };
 		A262C3111AF6CE3A00F75057 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A262C3101AF6CE3A00F75057 /* AppDelegate.m */; };
-		A262C3141AF6CE3A00F75057 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A262C3131AF6CE3A00F75057 /* ViewController.m */; };
 		A262C3171AF6CE3A00F75057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A262C3151AF6CE3A00F75057 /* Main.storyboard */; };
 		A262C3191AF6CE3A00F75057 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A262C3181AF6CE3A00F75057 /* Images.xcassets */; };
 		A262C3281AF6CE3A00F75057 /* FinalExamCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A262C3271AF6CE3A00F75057 /* FinalExamCalculatorTests.m */; };
@@ -35,9 +34,6 @@
 		A262C30D1AF6CE3A00F75057 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A262C30F1AF6CE3A00F75057 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A262C3101AF6CE3A00F75057 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A262C3121AF6CE3A00F75057 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A262C3131AF6CE3A00F75057 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A262C3161AF6CE3A00F75057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A262C3181AF6CE3A00F75057 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A262C3211AF6CE3A00F75057 /* FinalExamCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalExamCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A262C3261AF6CE3A00F75057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +46,7 @@
 		A262C33B1AF7278900F75057 /* CurrentGrade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentGrade.m; sourceTree = "<group>"; };
 		A262C33D1AF72FCA00F75057 /* FinalBreakDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FinalBreakDown.h; path = ../FinalBreakDown.h; sourceTree = "<group>"; };
 		A262C33E1AF72FCA00F75057 /* FinalBreakDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FinalBreakDown.m; path = ../FinalBreakDown.m; sourceTree = "<group>"; };
+		A2FD7D0B1B223DC9008BFCA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +90,6 @@
 			children = (
 				A262C30F1AF6CE3A00F75057 /* AppDelegate.h */,
 				A262C3101AF6CE3A00F75057 /* AppDelegate.m */,
-				A262C3121AF6CE3A00F75057 /* ViewController.h */,
-				A262C3131AF6CE3A00F75057 /* ViewController.m */,
 				A262C3151AF6CE3A00F75057 /* Main.storyboard */,
 				A262C3341AF709F100F75057 /* SubjectAdd.h */,
 				A262C3351AF709F100F75057 /* SubjectAdd.m */,
@@ -235,7 +230,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A262C3141AF6CE3A00F75057 /* ViewController.m in Sources */,
 				A262C3361AF709F100F75057 /* SubjectAdd.m in Sources */,
 				A262C3391AF7124D00F75057 /* CategoryLayout.m in Sources */,
 				A262C3111AF6CE3A00F75057 /* AppDelegate.m in Sources */,
@@ -267,7 +261,7 @@
 		A262C3151AF6CE3A00F75057 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A262C3161AF6CE3A00F75057 /* Base */,
+				A2FD7D0B1B223DC9008BFCA4 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -364,7 +358,7 @@
 				INFOPLIST_FILE = FinalExamCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -375,7 +369,7 @@
 				INFOPLIST_FILE = FinalExamCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -432,6 +426,7 @@
 				A262C32D1AF6CE3A00F75057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A262C32E1AF6CE3A00F75057 /* Build configuration list for PBXNativeTarget "FinalExamCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +435,7 @@
 				A262C3301AF6CE3A00F75057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
